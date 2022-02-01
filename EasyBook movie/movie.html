@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="assets/favicon.ico">
+    <title>EasyBook</title>
+    <script src="https://kit.fontawesome.com/4955124e8b.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+
+</head> 
+
+<body>
+    <nav id="firstNavbar" class="navbar navbar-expand-md navbar-dark  fixed-top" style="background-color: #462f2b;">
+        <a class="navbar-brand" href="mainPage.html"><i class="fas fa-check-double">.</i>EasyBook</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link hoverclass" href="index.html"> Login</a>
+            </li>
+            <li class="nav-item">
+              <a id="Logout" class="nav-link" href="userSupport.html">ContactUs</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <section id="register" class="register">
+        <div  class="body">
+          <form id="register-form" class="form-signin" autocomplete="off">
+            <h1 class="display-4 mb-4 themecolor"><i class="fas fa-check-double">.</i></h1>
+            <h1 class="h3 mb-3 font-weight-normal"><b>EasyBook</b></h1>
+    
+            <label for="name" class="sr-only">UserName</label>
+            <input type="text" id="name" class="form-control top" placeholder="Username"  minlength="6" required>
+    
+            <label for="inputEmail2" class="sr-only">Email address</label>
+            <input type="email" id="inputEmail2" class="form-control middle" placeholder="Email address" required >
+    
+            <label for="inputPassword2" class="sr-only">Enter Password</label>
+            <input type="password" id="inputPassword2" class="form-control bottom" placeholder="Password" pattern=".{8,12}" title="Password should be 8-12 characters" required>
+    
+            <a <button id="register-button" class="btn btn-lg btn-outline-success"
+              type="submit" href="index.html">Register</button></a>
+            <a <button id="go-to-login" class="btn btn-lg btn-outline-danger" type="button">Go to Login</button></a>
+            <div id="success-reg">
+    
+            </div>
+            <p class="mt-5 mb-3 text-muted">&copy;</i>EasyBook</p>
+          </form>
+        </div>
+      </section>
+      <footer>
+        <div class="container">
+            <p>Copyright ©EasyBook. All Rights Reserved | Contact Us: +91 90000 00000</p>
+        </div>
+      </footer>
+
+      </script>
+      <script src="config.js"></script>
+      <script src="js/index.js"></script>
+    </body>
+    
+    </html> 
+  

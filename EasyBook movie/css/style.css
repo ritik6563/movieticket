@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(252, 248, 248), rgba(0, 0, 0, .8)), center no-repeat;
+    background-size: cover;
+}
+
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.items {
+    width: 30%;
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    float: left;
+    margin-left: 1%;
+}
+
+.thumbnails {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.caption {
+    color: #000;
+    padding: 1px 10px 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.themecolor {
+    padding-top: 30px;
+    color: #333030;
+}
+
+@media(min-width:960px) {
+    #movies .col-md-3 .well {
+        height: 400px;
+        padding-bottom: 20px;
+    }
+    #movies .col-md-3 img {
+        height: 260px;
+    }
+    #collection .col-md-3 .well {
+        height: 400px;
+        padding-bottom: 20px;
+    }
+    #collection .col-md-3 img {
+        height: 260px;
+    }
+}
+
+#movies .well .img-thumbnail {
+    border: 2px solid #bdc3c7;
+    border-radius: 18%;
+    position: relative;
+    /* opacity: 0.5; */
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+#movies2 .img-thumbnail {
+    border: 3px solid #462f2b;
+    border-radius: 20%;
+}
+
+#collection .img-thumbnail {
+    border: 2px solid #bdc3c7;
+    border-radius: 18%;
+}
+
+#movies .well .img-thumbnail:hover {
+    opacity: 1;
+    transform: scale(1.2, 1.2);
+    border-color: rgb(135, 168, 85);
+}
+
+mark {
+    background-color: #dcdfd6;
+}
+
+.seats {
+    display: none;
+}
+
+.hidePaymentForm {
+    display: none;
+}
+
+.hideDownload {
+    display: none;
+}
+
+.hideTicketCancel {
+    display: none;
+}
+
+.hidden {
+    display: block;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.cornerRight {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+input:invalid {
+    border: 3px solid rgb(221, 50, 50);
+}
+
+/* user support */
+
+#contact .card:hover i,
+#contact .card:hover h4 {
+    opacity: 1;
+    padding-top: 1px;
+    transform: scale(1.25, 1.25);
+    color: rgb(15, 15, 14);
+}
+
+hr {
+    border: 0;
+    height: 1.5px;
+    background: rgb(66, 165, 74);
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+h2 {
+    color: rgb(32, 32, 32);
+    font-family: "Oswald", sans-serif;
+    margin: 20px 20px;
+    text-align: center;
+  }
+
+.body {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;  
+}
+  
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .checkbox {
+    font-weight: 400;
+}
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
